@@ -12,12 +12,23 @@
             margin: 0;
             padding: 0;
         }
+
         header {
             background-color: black;
             color: white;
             padding: 20px;
             font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
         }
+
+        header img {
+            width: 100px; /* Adjust size as needed */
+            height: auto;
+        }
+
         .container {
             margin: 20px;
             padding: 20px;
@@ -29,8 +40,10 @@
 </head>
 <body>
     <header>
-        Shoes and More
+        <img src="logo.png" alt="Shoes and More Logo">
+        <h1>Shoes and More</h1>
     </header>
+
     <div class="container">
         <h1>Welcome to Shoes and More!</h1>
         <p>Find the best shoes for any occasion.</p>
